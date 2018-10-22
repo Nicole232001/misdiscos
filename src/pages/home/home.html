@@ -33,11 +33,11 @@
 
 
   <ion-item style= background-color:#77567A>
-    <img item-start src ="../assets/shawn.jpg" height= "100px"/>
-    <h2>Shawn Mendes</h2>
-    <p style= color:black>Shawn Mendes</p>
+    <img item-start (click)= "imagen2()"src ="../assets/shawn.jpg" height= "100px"/>
+    <h2 (click)= "nombre2()">Shawn Mendes</h2>
+    <p style= color:black (click)= "album2()">Shawn Mendes</p>
     <p style= color:black>2018</p>
-    <ion-row>
+    <ion-row (click)= "stars2()">
       <ion-col>
           <ion-icon name="star"></ion-icon>
       </ion-col>

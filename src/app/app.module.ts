@@ -10,6 +10,10 @@ import { Disc1imagenPage } from '../pages/disc1imagen/disc1imagen';
 import { Disc1nombrePage } from '../pages/disc1nombre/disc1nombre';
 import { Disc1estrellasPage } from '../pages/disc1estrellas/disc1estrellas';
 import { Disc1albumPage } from '../pages/disc1album/disc1album';
+import { Disc2albumPage } from '../pages/disc2album/disc2album';
+import { Disc2estrellasPage } from '../pages/disc2estrellas/disc2estrellas';
+import { Disc2imagenPage } from '../pages/disc2imagen/disc2imagen';
+import { Disc2nombrePage } from '../pages/disc2nombre/disc2nombre';
 
 @NgModule({
   declarations: [
@@ -18,7 +22,11 @@ import { Disc1albumPage } from '../pages/disc1album/disc1album';
     Disc1imagenPage,
     Disc1nombrePage,
     Disc1albumPage,
-    Disc1estrellasPage
+    Disc1estrellasPage,
+    Disc2albumPage,
+    Disc2estrellasPage,
+    Disc2imagenPage,
+    Disc2nombrePage,
   ],
   imports: [
     BrowserModule,
@@ -31,7 +39,11 @@ import { Disc1albumPage } from '../pages/disc1album/disc1album';
     Disc1imagenPage,
     Disc1nombrePage,
     Disc1albumPage,
-    Disc1estrellasPage
+    Disc1estrellasPage,
+    Disc2albumPage,
+    Disc2estrellasPage,
+    Disc2imagenPage,
+    Disc2nombrePage,
   ],
   providers: [
     StatusBar,
