@@ -14,7 +14,7 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   templateUrl: 'disc2album.html',
 })
 export class Disc2albumPage {
-  track=["In my blood", "Nervous", "Lost in japan", "Where were you in the morning", "Like to be you", "Fallin’ all in you", "Particular taste", "Why", "Because I had you", "Queen", "Youth", "Mutual", "Perfectly wrong", "When you are’re ready"];
+  rack=["In my blood", "Nervous", "Lost in japan", "Where were you in the morning", "Like to be you", "Fallin’ all in you", "Particular taste", "Why", "Because I had you", "Queen", "Youth", "Mutual", "Perfectly wrong", "When you are’re ready"];
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
