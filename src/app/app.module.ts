@@ -14,6 +14,10 @@ import { Disc2albumPage } from '../pages/disc2album/disc2album';
 import { Disc2estrellasPage } from '../pages/disc2estrellas/disc2estrellas';
 import { Disc2imagenPage } from '../pages/disc2imagen/disc2imagen';
 import { Disc2nombrePage } from '../pages/disc2nombre/disc2nombre';
+import { Disc3albumPage } from '../pages/disc3album/disc3album';
+import { Disc3estrellasPage } from '../pages/disc3estrellas/disc3estrellas';
+import { Disc3imagenPage } from '../pages/disc3imagen/disc3imagen';
+import { Disc3nombrePage } from '../pages/disc3nombre/disc3nombre';
 
 @NgModule({
   declarations: [
@@ -27,6 +31,10 @@ import { Disc2nombrePage } from '../pages/disc2nombre/disc2nombre';
     Disc2estrellasPage,
     Disc2imagenPage,
     Disc2nombrePage,
+    Disc3albumPage,
+    Disc3estrellasPage,
+    Disc3imagenPage,
+    Disc3nombrePage
   ],
   imports: [
     BrowserModule,
@@ -44,6 +52,10 @@ import { Disc2nombrePage } from '../pages/disc2nombre/disc2nombre';
     Disc2estrellasPage,
     Disc2imagenPage,
     Disc2nombrePage,
+    Disc3albumPage,
+    Disc3estrellasPage,
+    Disc3imagenPage,
+    Disc3nombrePage
   ],
   providers: [
     StatusBar,

@@ -57,11 +57,11 @@
 </ion-item>
 
 <ion-item style= background-color:#8783D1>
-    <img item-start src ="../assets/v.jpg" height= "100px"/>
-    <h2>Maroon 5</h2>
-    <p style= color:black>V</p>
+    <img item-start (click)= "imagen3()"src ="../assets/v.jpg" height= "100px"/>
+    <h2 (click)= "nombre3()">Maroon 5</h2>
+    <p style= color:black (click)= "album3()">V</p>
     <p style= color:black>2014</p>
-    <ion-row>
+    <ion-row (click)= "stars3()">
       <ion-col>
           <ion-icon name="star"></ion-icon>
       </ion-col>
