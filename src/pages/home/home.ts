@@ -13,6 +13,10 @@ import { Disc3imagenPage } from '../disc3imagen/disc3imagen';
 import { Disc3nombrePage } from '../disc3nombre/disc3nombre';
 import { Disc3albumPage } from '../disc3album/disc3album';
 import { Disc3estrellasPage } from '../disc3estrellas/disc3estrellas';
+import { Disc4imagenPage } from '../disc4imagen/disc4imagen';
+import { Disc4nombrePage } from '../disc4nombre/disc4nombre';
+import { Disc4albumPage } from '../disc4album/disc4album';
+import { Disc4estrellasPage } from '../disc4estrellas/disc4estrellas';
 
 @Component({
   selector: 'page-home',
@@ -31,6 +35,10 @@ imagenn3=Disc3imagenPage;
 nombree3=Disc3nombrePage;
 albumm3=Disc3albumPage;
 estrellass3=Disc3estrellasPage;
+imagenn4=Disc4imagenPage;
+nombree4=Disc4nombrePage;
+albumm4=Disc4albumPage;
+estrellass4=Disc4estrellasPage;
   constructor(public navCtrl: NavController) {
 
   }
@@ -69,5 +77,17 @@ album3(){
 }
 stars3(){
   this.navCtrl.push(this.estrellass3);
+}
+imagen4(){
+  this.navCtrl.push(this.imagenn4);
+}
+nombre4(){
+  this.navCtrl.push(this.nombree4);
+}
+album4(){
+  this.navCtrl.push(this.albumm4);
+}
+stars4(){
+  this.navCtrl.push(this.estrellass4);
 }
 }
