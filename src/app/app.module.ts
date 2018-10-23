@@ -22,6 +22,10 @@ import { Disc4albumPage } from '../pages/disc4album/disc4album';
 import { Disc4estrellasPage } from '../pages/disc4estrellas/disc4estrellas';
 import { Disc4imagenPage } from '../pages/disc4imagen/disc4imagen';
 import { Disc4nombrePage } from '../pages/disc4nombre/disc4nombre';
+import { Disc5albumPage } from '../pages/disc5album/disc5album';
+import { Disc5estrellasPage } from '../pages/disc5estrellas/disc5estrellas';
+import { Disc5imagenPage } from '../pages/disc5imagen/disc5imagen';
+import { Disc5nombrePage } from '../pages/disc5nombre/disc5nombre';
 
 @NgModule({
   declarations: [
@@ -42,7 +46,11 @@ import { Disc4nombrePage } from '../pages/disc4nombre/disc4nombre';
     Disc4albumPage,
     Disc4estrellasPage,
     Disc4imagenPage,
-    Disc4nombrePage
+    Disc4nombrePage,
+    Disc5albumPage,
+    Disc5estrellasPage,
+    Disc5imagenPage,
+    Disc5nombrePage,
   ],
   imports: [
     BrowserModule,
@@ -67,7 +75,11 @@ import { Disc4nombrePage } from '../pages/disc4nombre/disc4nombre';
     Disc4albumPage,
     Disc4estrellasPage,
     Disc4imagenPage,
-    Disc4nombrePage
+    Disc4nombrePage,
+    Disc5albumPage,
+    Disc5estrellasPage,
+    Disc5imagenPage,
+    Disc5nombrePage,
   ],
   providers: [
     StatusBar,
